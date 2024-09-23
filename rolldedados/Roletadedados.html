@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta de Dados</title>
+    <link rel="stylesheet" href="Rolls.css">
+</head>
+<body>
+    <header>
+        <h1>ROLLS DE DADO</h1> 
+    </header>
+        <section>
+            <div id="cubo1">
+                <h2 id="msg">Escolha um tipo de dado</h2>
+                <img src="dados/dados (1).png" alt="" width="1000px">
+                
+                <p id="inputs">
+                    <input height="50px" type="button" value="Rolar um d4" onclick="rolar1()">  
+                    
+                    <input height="50px" type="button" value="Rolar um d6" onclick="rolar2()">  
+
+                    <input height="50px" type="button" value="Rolar um d8" onclick="rolar3()">
+                    
+                    <input height="50px" type="button" value="Rolar um d10" onclick="rolar4()">  
+                    
+                    <input height="50px" type="button" value="Rolar um d12" onclick="rolar5()">  
+                    
+                    <input height="50px" type="button" value="Rolar um d20" onclick="rolar6()"></p>
+            </div>
+            <div id="bloco2">
+                <input id="back" type="button" value="Rolar dados Novamente" onclick="back()">
+            </div>
+        </section>
+        <footer>
+            <p>&copy; XMiguelp</p>
+        </footer>
+        <script src="Rolls.js"></script>
+</body>
+</html>

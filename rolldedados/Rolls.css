@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(67, 154, 230);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.414);
+    margin: auto;
+    text-align: center;
+}
+input#back {
+    padding: 10px;
+}
