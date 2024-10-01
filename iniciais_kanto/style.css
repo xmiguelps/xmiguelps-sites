@@ -52,6 +52,7 @@ nav {
 }
 
 nav > a {
+    min-width: 320px;
     text-decoration: none;
     margin-right: 5px;
     margin-left: 10px;
