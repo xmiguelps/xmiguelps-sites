@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* variaveis por que sim*/
+:root {
+    --amareloescuro: #EEB132;
+    --amareloclaro: #FFE346;
+    --azulescuro: #3EA1BA;
+    --azulclaro: #73D7E7;
+    --laranjaclaro: #FC804D;
+    --laranjaescuro: #AF3B38;
+    --verdeclaro: #B7EB66;
+    --verdeescuro: #88AC3B;
+    --borda: #20252D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(242, 233, 216);
+}
+
+header {
+    background-image: url('imagens/wallpaperflare.com_wallpaper.jpg');
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    min-height: 270px;
+    padding-top: 230px;
+    background-position: center center;
+}
+
+header > h1 {
+    max-width: 530px;
+    border-radius: 0px 10px 10px 0px;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#borda {
+    height: 20px;
+    background-image: linear-gradient(to right, #070302, #141519, #20252D, #2F3B49);
+}
+
+nav {
+    padding: 15px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 12px;
+    padding-top: 0px;
+    font-weight: bold;
+    border-radius: 0px 0px 5px 5px;
+    transition-duration: 0.2s;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+a#pikachu{
+    color: var(--amareloescuro);
+    background-color: var(--amareloclaro);
+}
+
+a#pikachu:hover {
+    color: var(--amareloclaro);
+    background-color: var(--amareloescuro);
+}
+
+a#squirtle {
+    color: var(--azulescuro);
+    background-color: var(--azulclaro);
+}
+
+a#squirtle:hover {
+    color: var(--azulclaro);
+    background-color: var(--azulescuro);
+}
+
+a#charmander {
+    color: var(--laranjaescuro);
+    background-color: var(--laranjaclaro);
+}
+
+a#charmander:hover {
+    color: var(--laranjaclaro);
+    background-color: var(--laranjaescuro);
+}
+
+a#bulbassaur {
+    color: var(--verdeescuro);
+    background-color: var(--verdeclaro);
+}
+
+a#bulbassaur:hover {
+    color: var(--verdeclaro);
+    background-color: var(--verdeescuro);
+}
+
+main {
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 320px;
+    background-color: white;
+}
+
+main p {
+    padding-left: 25px;
+    text-align: justify;
+    text-indent: 15px;
+    max-width: 700px;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+}
