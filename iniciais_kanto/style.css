@@ -25,7 +25,7 @@ body {
 
 header {
     background-image: url('imagens/wallpaperflare.com_wallpaper.jpg');
-    background-size: 100% 600px;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 270px;
     padding-top: 230px;
