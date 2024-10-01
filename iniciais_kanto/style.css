@@ -49,10 +49,10 @@ nav {
     padding: 15px;
     padding-top: 0px;
     background-color: white;
+    min-width: 320px;
 }
 
 nav > a {
-    min-width: 320px;
     text-decoration: none;
     margin-right: 5px;
     margin-left: 10px;
