@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Pokemon';
+    src: url(Pokemon\ Hollow.ttf) format('truetype');
+}
+
 /* variaveis por que sim*/
 :root {
     --amareloescuro: #EEB132;
@@ -11,6 +16,7 @@
     --verdeclaro: #B7EB66;
     --verdeescuro: #88AC3B;
     --borda: #20252D;
+    --pokemon: 'Pokemon'
 }
 
 * {
@@ -38,16 +44,18 @@ header > h1 {
     max-width: 700px;
     border-radius: 0px 10px 10px 0px;
     padding: 5px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.526);;
+    color: white;
 }
 
 header > h2 {
     max-width: 700px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.526);
     margin-top: 400px;
     padding: 5px;
     border-radius: 10px 0px 0px 10px;
     float: right;
+    color: white;
 }
 
 #borda {
@@ -67,7 +75,8 @@ nav {
 
 nav > a {
     text-decoration: none;
-    padding: 12px;
+    padding: 13px;
+    margin-left: 5px;
     padding-top: 0px;
     font-weight: bold;
     border-radius: 0px 0px 5px 5px;
@@ -127,6 +136,10 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
+article {
+    padding: 10px;
+}
+
 article#vermelho {
     margin-bottom: 15px;
     border: 3px solid var(--laranjaescuro);
@@ -145,6 +158,12 @@ article#verde {
     border-radius: 5px;
 }
 
+article#amarelo {
+    margin-bottom: 15px;
+    border: 3px solid var(--amareloescuro);
+    border-radius: 5px;
+}
+
 .espaço {
     height: 20px;
 }
@@ -156,6 +175,7 @@ main > article > h1 {
 
 main > h1 {
     text-align: center;
+    font-family: var(--pokemon);
 }
 
 main p {
@@ -172,4 +192,13 @@ img {
     margin: auto;
     height: 250px;
     border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+    margin: auto;
 }
